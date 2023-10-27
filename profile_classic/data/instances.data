@@ -2469,6 +2469,11 @@ instances
             handler: \effcore\modules\user\Events_Selection::handler__user__roles
             is_apply_translation: true
             weight: -400
+        - permissions
+            title: Permissions
+            handler: \effcore\modules\user\Events_Selection::handler__user__permissions
+            is_apply_translation: true
+            weight: -420
     - is_embedded: 1
 - selection_social_networks|Instance
     entity_name: selection
