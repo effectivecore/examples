@@ -2475,6 +2475,58 @@ instances
             is_apply_translation: true
             weight: -420
     - is_embedded: 1
+- selection_user_sessions|Instance
+    entity_name: selection
+    values
+    - id: user_sessions
+    - title: Sessions
+    - main_entity_name: session
+    - data
+      - is_custom_conditions: true
+      - pager_is_enabled: true
+    - decorator_settings
+      - view_type: table-adaptive
+    - query_settings
+      - where
+        - id_user_!f: id_user
+        - id_user_operator: =
+        - id_user_!v|Text
+            is_apply_translation: false
+            is_apply_tokens: true
+            text: %%_user_id
+      - limit: 50
+    - fields
+      - checkboxes
+        - checkbox-select
+            settings
+            - name: is_checked[]
+            weight: +600
+      - main
+        - id
+            title: ID
+            entity_field_name: id
+            is_not_visible: true
+            weight: +400
+        - is_fixed_ip
+            title: Is fixed IP
+            entity_field_name: is_fixed_ip
+            is_apply_translation: true
+            weight: +380
+        - expired
+            title: Expiration date
+            entity_field_name: expired
+            weight: +360
+        - data
+            entity_field_name: data
+            is_not_visible: true
+            weight: +340
+      - handlers
+        - data
+            title: Data
+            handler: \effcore\modules\user\Events_Selection::handler__session__data
+            is_apply_translation: true
+            weight: -300
+    - is_embedded: 1
 - selection_social_networks|Instance
     entity_name: selection
     values
