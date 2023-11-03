@@ -2444,6 +2444,7 @@ instances
         - avatar_path
             title: Avatar path
             entity_field_name: avatar_path
+            is_not_visible: true
             weight: +360
         - timezone
             title: Time zone
@@ -2464,16 +2465,20 @@ instances
             is_apply_translation: true
             weight: +280
       - handlers
+        - avatar_paths_as_links
+            title: Avatar paths
+            handler: \effcore\modules\user\Events_Selection::handler__user__avatar_paths_as_links
+            weight: -400
         - roles
             title: Roles
             handler: \effcore\modules\user\Events_Selection::handler__user__roles
             is_apply_translation: true
-            weight: -400
+            weight: -420
         - permissions
             title: Permissions
             handler: \effcore\modules\user\Events_Selection::handler__user__permissions
             is_apply_translation: true
-            weight: -420
+            weight: -440
     - is_embedded: 1
 - selection_user_sessions|Instance
     entity_name: selection
