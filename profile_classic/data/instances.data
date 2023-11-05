@@ -2436,49 +2436,49 @@ instances
         - id
             title: ID
             entity_field_name: id
-            weight: +400
+            weight: +0
         - nickname
             title: Nickname
             entity_field_name: nickname
-            weight: +380
+            weight: -5
         - avatar_path
             title: Avatar path
             entity_field_name: avatar_path
             is_not_visible: true
-            weight: +360
+            weight: -10
         - timezone
             title: Time zone
             entity_field_name: timezone
             is_apply_translation: true
-            weight: +340
+            weight: -15
         - created
             title: Created
             entity_field_name: created
-            weight: +320
+            weight: -20
         - updated
             title: Updated
             entity_field_name: updated
-            weight: +300
+            weight: -25
         - is_embedded
             title: Is embedded
             entity_field_name: is_embedded
             is_apply_translation: true
-            weight: +280
+            weight: -30
       - handlers
-        - avatar_paths_as_links
+        - handler__user__avatar_paths_as_links
             title: Avatar paths
             handler: \effcore\modules\user\Events_Selection::handler__user__avatar_paths_as_links
-            weight: -400
-        - roles
+            weight: -35
+        - handler__user__roles
             title: Roles
             handler: \effcore\modules\user\Events_Selection::handler__user__roles
             is_apply_translation: true
-            weight: -420
-        - permissions
+            weight: -40
+        - handler__user__permissions
             title: Permissions
             handler: \effcore\modules\user\Events_Selection::handler__user__permissions
             is_apply_translation: true
-            weight: -440
+            weight: -45
     - is_embedded: 1
 - selection_user_sessions|Instance
     entity_name: selection
@@ -2511,26 +2511,26 @@ instances
             title: ID
             entity_field_name: id
             is_not_visible: true
-            weight: +400
+            weight: +0
         - is_fixed_ip
             title: Is fixed IP
             entity_field_name: is_fixed_ip
             is_apply_translation: true
-            weight: +380
+            weight: -5
         - expired
             title: Expiration date
             entity_field_name: expired
-            weight: +360
+            weight: -10
         - data
             entity_field_name: data
             is_not_visible: true
-            weight: +340
+            weight: -15
       - handlers
-        - data
+        - handler__session__data
             title: Data
             handler: \effcore\modules\user\Events_Selection::handler__session__data
             is_apply_translation: true
-            weight: -300
+            weight: -20
     - is_embedded: 1
 - selection_social_networks|Instance
     entity_name: selection
@@ -2564,20 +2564,20 @@ instances
       - main
         - id
             entity_field_name: id
-            weight: +400
+            weight: +0
         - description
             entity_field_name: description
             is_apply_translation: true
-            weight: +380
+            weight: -5
         - path
             entity_field_name: path
-            weight: +360
+            weight: -10
         - url
             entity_field_name: url
-            weight: +340
+            weight: -15
         - this_attributes
             entity_field_name: attributes
-            weight: +320
+            weight: -20
         - link_attributes
             entity_field_name: link_attributes
-            weight: +300
+            weight: -25
