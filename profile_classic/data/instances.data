@@ -2501,36 +2501,39 @@ instances
             text: %%_user_id
       - limit: 50
     - fields
-      - checkboxes
-        - checkbox-select
-            settings
-            - name: is_checked[]
-            weight: +600
       - main
         - id
             title: ID
             entity_field_name: id
             is_not_visible: true
-            weight: +0
+            weight: -10
         - is_fixed_ip
             title: Is fixed IP
             entity_field_name: is_fixed_ip
             is_apply_translation: true
-            weight: -5
+            weight: -15
         - expired
             title: Expiration date
             entity_field_name: expired
-            weight: -10
+            weight: -20
         - data
             entity_field_name: data
             is_not_visible: true
-            weight: -15
+            weight: -25
       - handlers
+        - handler__all__checkbox_select
+            handler: \effcore\modules\page\Events_Selection::handler__any__checkbox_select
+            weight: +0
+        - handler__session__is_current
+            title: Is current
+            handler: \effcore\modules\user\Events_Selection::handler__session__is_current
+            is_apply_translation: true
+            weight: -5
         - handler__session__data
             title: Data
             handler: \effcore\modules\user\Events_Selection::handler__session__data
             is_apply_translation: true
-            weight: -20
+            weight: -30
     - is_embedded: 1
 - selection_social_networks|Instance
     entity_name: selection
