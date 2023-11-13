@@ -2521,7 +2521,7 @@ instances
             is_not_visible: true
             weight: -25
       - handlers
-        - handler__all__checkbox_select
+        - handler__any__checkbox_select
             handler: \effcore\modules\page\Events_Selection::handler__any__checkbox_select
             weight: +0
         - handler__session__is_current
