@@ -2240,7 +2240,7 @@ instances
     entity_name: gallery
     values
     - id: main
-    - title: Main gallery
+    - description: Main gallery
     - attributes
       - 0
           weight: +0
