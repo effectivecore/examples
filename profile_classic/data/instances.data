@@ -2548,8 +2548,8 @@ instances
       - template_item: picture_in_link
       - mapping
         - =: id
-        - =: path
         - =: url
+        - src: path
         - attributes: this_attributes
         - =: link_attributes
     - query_settings
@@ -2574,6 +2574,7 @@ instances
             weight: -5
         - path
             entity_field_name: path
+            format: url_from_path
             weight: -10
         - url
             entity_field_name: url
