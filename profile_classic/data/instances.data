@@ -2337,14 +2337,31 @@ instances
           weight: -30
           object|File_history
             name: audio-01
+            type: mp3
+            file: audio-01.mp3
+            mime: audio/mpeg
+            fin_path: dynamic/files/galleries/gallery-main-6.mp3
+            size: 16744
+          settings
+          - data-player-name: default
+          - autoplay: null
+          - controls: true
+          - crossorigin: null
+          - loop: null
+          - muted: null
+          - preload: metadata
+          - data-cover-is-embedded: false
+      - 7
+          weight: -35
+          object|File_history
+            name: audio-02
             type: audio
-            file: audio-01.audio
+            file: audio-02.audio
             mime: application/octet-stream
-            fin_path: dynamic/files/galleries/gallery-main-6.audio
+            fin_path: dynamic/files/galleries/gallery-main-7.audio
             size: 19763
           settings
           - data-player-name: default
-          - data-player-timeline-is-visible|_string_true
           - autoplay: null
           - controls: true
           - crossorigin: null
@@ -2352,31 +2369,12 @@ instances
           - muted: null
           - preload: metadata
           - data-cover-is-embedded: true
-      - 7
-          weight: -35
-          object|File_history
-            name: video-01
-            type: video
-            file: video-01.video
-            mime: application/octet-stream
-            fin_path: dynamic/files/galleries/gallery-main-7.video
-            size: 18269
-          settings
-          - autoplay: null
-          - buffered: null
-          - controls: true
-          - crossorigin: null
-          - loop: null
-          - muted: null
-          - played: null
-          - preload: metadata
-          - data-poster-is-embedded: true
       - 8
           weight: -40
           object|File_history
-            name: video-02
+            name: video-01
             type: mp4
-            file: video-02.mp4
+            file: video-01.mp4
             mime: video/mp4
             fin_path: dynamic/files/galleries/gallery-main-8.mp4
             size: 15148
@@ -2393,22 +2391,22 @@ instances
       - 9
           weight: -45
           object|File_history
-            name: audio-02
-            type: mp3
-            file: audio-02.mp3
-            mime: audio/mpeg
-            fin_path: dynamic/files/galleries/gallery-main-9.mp3
-            size: 16744
+            name: video-02
+            type: video
+            file: video-02.video
+            mime: application/octet-stream
+            fin_path: dynamic/files/galleries/gallery-main-9.video
+            size: 18269
           settings
-          - data-player-name: default
-          - data-player-timeline-is-visible|_string_true
           - autoplay: null
+          - buffered: null
           - controls: true
           - crossorigin: null
           - loop: null
           - muted: null
+          - played: null
           - preload: metadata
-          - data-cover-is-embedded: false
+          - data-poster-is-embedded: true
 # ─────────────────────────────────────────────────────────────────────
 # selections
 # ─────────────────────────────────────────────────────────────────────
