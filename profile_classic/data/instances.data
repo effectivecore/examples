@@ -2252,9 +2252,9 @@ instances
       - 0
           weight: +0
           object|File_history
-            name: 1000x1500-01
+            name: 1000x1500-1
             type: picture
-            file: 1000x1500-01.picture
+            file: 1000x1500-1.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-0.picture
             size: 6026
@@ -2266,9 +2266,9 @@ instances
       - 1
           weight: -5
           object|File_history
-            name: 1000x1500-02
+            name: 1000x1500-2
             type: picture
-            file: 1000x1500-02.picture
+            file: 1000x1500-2.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-1.picture
             size: 6038
@@ -2280,9 +2280,9 @@ instances
       - 2
           weight: -10
           object|File_history
-            name: 1000x1500-03
+            name: 1000x1500-3
             type: picture
-            file: 1000x1500-03.picture
+            file: 1000x1500-3.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-2.picture
             size: 6035
@@ -2294,9 +2294,9 @@ instances
       - 3
           weight: -15
           object|File_history
-            name: 1500x1000-01
+            name: 1500x1000-4
             type: picture
-            file: 1500x1000-01.picture
+            file: 1500x1000-4.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-3.picture
             size: 5577
@@ -2308,9 +2308,9 @@ instances
       - 4
           weight: -20
           object|File_history
-            name: 1500x1000-02
+            name: 1500x1000-5
             type: picture
-            file: 1500x1000-02.picture
+            file: 1500x1000-5.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-4.picture
             size: 5574
@@ -2322,9 +2322,9 @@ instances
       - 5
           weight: -25
           object|File_history
-            name: 1500x1000-03
+            name: 1500x1000-6
             type: picture
-            file: 1500x1000-03.picture
+            file: 1500x1000-6.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-5.picture
             size: 5575
@@ -2336,9 +2336,9 @@ instances
       - 6
           weight: -30
           object|File_history
-            name: audio-01
+            name: audio
             type: mp3
-            file: audio-01.mp3
+            file: audio.mp3
             mime: audio/mpeg
             fin_path: dynamic/files/galleries/gallery-main-6.mp3
             size: 16744
@@ -2354,12 +2354,12 @@ instances
       - 7
           weight: -35
           object|File_history
-            name: audio-02
+            name: audio
             type: audio
-            file: audio-02.audio
+            file: audio.audio
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-7.audio
-            size: 19763
+            size: 17416
           settings
           - data-player-name: default
           - autoplay: null
@@ -2372,9 +2372,9 @@ instances
       - 8
           weight: -40
           object|File_history
-            name: video-01
+            name: video
             type: mp4
-            file: video-01.mp4
+            file: video.mp4
             mime: video/mp4
             fin_path: dynamic/files/galleries/gallery-main-8.mp4
             size: 15148
@@ -2391,12 +2391,12 @@ instances
       - 9
           weight: -45
           object|File_history
-            name: video-02
+            name: video
             type: video
-            file: video-02.video
+            file: video.video
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-9.video
-            size: 18269
+            size: 15819
           settings
           - autoplay: null
           - buffered: null
