@@ -1875,8 +1875,7 @@ instances
     entity_name: tree
     values
     - id: user_anonymous
-    - title: Anonymous user's menu
-    - title_is_visible: 0
+    - description: Anonymous user's menu
     - is_embedded: 1
     - attributes
       - 0
@@ -1892,8 +1891,7 @@ instances
     entity_name: tree
     values
     - id: user_anonymous_ru
-    - title: Меню анонимного пользователя
-    - title_is_visible: 0
+    - description: Меню анонимного пользователя
     - attributes
       - 0
           weight: +0
@@ -1908,8 +1906,7 @@ instances
     entity_name: tree
     values
     - id: user_registered
-    - title: Registered user's menu
-    - title_is_visible: 0
+    - description: Registered user's menu
     - is_embedded: 1
     - attributes
       - 0
@@ -1925,8 +1922,7 @@ instances
     entity_name: tree
     values
     - id: user_registered_ru
-    - title: Меню зарегистрированного пользователя
-    - title_is_visible: 0
+    - description: Меню зарегистрированного пользователя
     - attributes
       - 0
           weight: +0
@@ -1941,8 +1937,7 @@ instances
     entity_name: tree
     values
     - id: languages
-    - title: Language selection menu
-    - title_is_visible: 0
+    - description: Language selection menu
     - attributes
       - 0
           weight: +0
@@ -1954,8 +1949,7 @@ instances
     entity_name: tree
     values
     - id: main
-    - title: Main menu
-    - title_is_visible: 0
+    - description: Main menu
     - attributes
       - 0
           weight: +0
@@ -1967,8 +1961,7 @@ instances
     entity_name: tree
     values
     - id: main_ru
-    - title: Меню главное
-    - title_is_visible: 0
+    - description: Меню главное
     - attributes
       - 0
           weight: +0
