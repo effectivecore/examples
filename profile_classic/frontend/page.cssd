@@ -4,10 +4,6 @@ body[data-layout-id='original_classic'] {
   padding: 0;
   min-width: 0;
   max-width: none;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.7em;
-  word-spacing: .3em;
   background: white;
 }
 
@@ -15,7 +11,7 @@ body[data-layout-id='original_classic'] {
 
 body[data-layout-id='original_classic'] [data-area][data-group-id='head'] {display: block; padding: 0 30px; box-sizing: border-box; padding-top:  0  ; padding-bottom:  0  ; color: black; background: %%_color_custom__head}
 body[data-layout-id='original_classic'] [data-area][data-group-id='body'] {display: block; padding: 0 30px; box-sizing: border-box; padding-top: 10px; padding-bottom: 40px; color: %%_color__text; background: %%_color__page url('pictures/page-bg.svg') 50% 0}
-body[data-layout-id='original_classic'] [data-area][data-group-id='foot'] {display: block; padding: 0 30px; box-sizing: border-box; padding-top: 10px; padding-bottom: 10px; color: black; background: %%_color_custom__foot; font-size: .6em}
+body[data-layout-id='original_classic'] [data-area][data-group-id='foot'] {display: block; padding: 0 30px; box-sizing: border-box; padding-top: 10px; padding-bottom: 10px; color: black; background: %%_color_custom__foot; font-size: .8em}
 
 body[data-layout-id='original_classic'] [data-area][data-wrapper]::after {content: ''; clear: both; display: block}
 body[data-layout-id='original_classic'] [data-area][data-wrapper] {
