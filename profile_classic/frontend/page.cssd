@@ -100,3 +100,10 @@ body[data-layout-id='original_classic'] [role='tree'][data-id^='main'] ul ul li:
 body[data-layout-id='original_classic'] [data-decorator][data-id='social_networks'] {line-height: 0}
 body[data-layout-id='original_classic'] [data-decorator][data-id='social_networks'] a[data-id^='picture-']     {display: inline-block; margin: 0 0 0 10px}
 body[data-layout-id='original_classic'] [data-decorator][data-id='social_networks'] a[data-id^='picture-'] img {display: inline-block; width: 30px; height: 30px}
+
+/* blocks with text */
+
+body[data-layout-id='original_classic'] [data-area][data-id='content'] [data-block][data-id^="block__text"] {
+  font-size: 18px;
+  line-height: 1.5em;
+}
