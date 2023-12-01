@@ -2244,10 +2244,11 @@ instances
     - items
       - 0
           weight: +0
+          title: 1000x1500-1.png
           object|File_history
-            name: 1000x1500-1
+            name: gallery-main-0
             type: picture
-            file: 1000x1500-1.picture
+            file: gallery-main-0.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-0.picture
             size: 6026
@@ -2258,10 +2259,11 @@ instances
           - data-thumbnails-is-embedded: true
       - 1
           weight: -5
+          title: 1000x1500-2.png
           object|File_history
-            name: 1000x1500-2
+            name: gallery-main-1
             type: picture
-            file: 1000x1500-2.picture
+            file: gallery-main-1.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-1.picture
             size: 6038
@@ -2272,10 +2274,11 @@ instances
           - data-thumbnails-is-embedded: true
       - 2
           weight: -10
+          title: 1000x1500-3.png
           object|File_history
-            name: 1000x1500-3
+            name: gallery-main-2
             type: picture
-            file: 1000x1500-3.picture
+            file: gallery-main-2.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-2.picture
             size: 6035
@@ -2286,10 +2289,11 @@ instances
           - data-thumbnails-is-embedded: true
       - 3
           weight: -15
+          title: 1500x1000-4.png
           object|File_history
-            name: 1500x1000-4
+            name: gallery-main-3
             type: picture
-            file: 1500x1000-4.picture
+            file: gallery-main-3.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-3.picture
             size: 5577
@@ -2300,10 +2304,11 @@ instances
           - data-thumbnails-is-embedded: true
       - 4
           weight: -20
+          title: 1500x1000-5.png
           object|File_history
-            name: 1500x1000-5
+            name: gallery-main-4
             type: picture
-            file: 1500x1000-5.picture
+            file: gallery-main-4.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-4.picture
             size: 5574
@@ -2314,10 +2319,11 @@ instances
           - data-thumbnails-is-embedded: true
       - 5
           weight: -25
+          title: 1500x1000-6.png
           object|File_history
-            name: 1500x1000-6
+            name: gallery-main-5
             type: picture
-            file: 1500x1000-6.picture
+            file: gallery-main-5.picture
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-5.picture
             size: 5575
@@ -2328,10 +2334,11 @@ instances
           - data-thumbnails-is-embedded: true
       - 6
           weight: -30
+          title: audio.mp3
           object|File_history
-            name: audio
+            name: gallery-main-6
             type: mp3
-            file: audio.mp3
+            file: gallery-main-6.mp3
             mime: audio/mpeg
             fin_path: dynamic/files/galleries/gallery-main-6.mp3
             size: 16744
@@ -2346,10 +2353,11 @@ instances
           - data-cover-is-embedded: false
       - 7
           weight: -35
+          title: audio.mp3
           object|File_history
-            name: audio
+            name: gallery-main-7
             type: audio
-            file: audio.audio
+            file: gallery-main-7.audio
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-7.audio
             size: 17416
@@ -2364,10 +2372,11 @@ instances
           - data-cover-is-embedded: true
       - 8
           weight: -40
+          title: video.mp4
           object|File_history
-            name: video
+            name: gallery-main-8
             type: mp4
-            file: video.mp4
+            file: gallery-main-8.mp4
             mime: video/mp4
             fin_path: dynamic/files/galleries/gallery-main-8.mp4
             size: 15148
@@ -2383,10 +2392,11 @@ instances
           - data-poster-is-embedded: false
       - 9
           weight: -45
+          title: video.mp4
           object|File_history
-            name: video
+            name: gallery-main-9
             type: video
-            file: video.video
+            file: gallery-main-9.video
             mime: application/octet-stream
             fin_path: dynamic/files/galleries/gallery-main-9.video
             size: 15819
