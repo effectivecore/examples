@@ -26,6 +26,7 @@ body[data-layout-id='original_classic'] [data-area][data-id='header'] {float: le
 body[data-layout-id='original_classic'] [data-area][data-id='header']::after {content: none}
 body[data-layout-id='original_classic'] [data-area][data-id='menu'] {float: right}
 body[data-layout-id='original_classic'] [data-area][data-id='menu']::after {content: none}
+body[data-layout-id='original_classic'] [data-area][data-group-id='body'] [data-area][data-type='flex'] > [data-area] {overflow: auto} /* fix for <pre> */
 
 [data-layout-id='original_classic'] [data-group-id='content'] > [data-group-id='left'] {
   flex: 600px;
@@ -108,5 +109,4 @@ body[data-layout-id='original_classic'] [data-decorator][data-id='social_network
 body[data-layout-id='original_classic'] [data-area][data-id='content'] [data-block][data-id^="block__text"] {
   font-size: 18px;
   line-height: 1.5em;
-  overflow: scroll;
 }
